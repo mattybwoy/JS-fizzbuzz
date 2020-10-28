@@ -8,8 +8,9 @@ import Fizzbuzz from "../src/Fizzbuzz";
 
 
 describe('#Fizzbuzz', () => {
-  test("Fizz when it's a 3", () => {
+  test("returns the number it's passed", () => {
     let myClass = new Fizzbuzz()
     expect(myClass.fizzbuzz(1)).toBe(1)
+    expect(myClass.fizzbuzz(2)).toBe(2)
   })
 });

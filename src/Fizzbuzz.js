@@ -1,8 +1,5 @@
 export default class Fizzbuzz {
-  constructor() {
-  };
-
-  fizzbuzz() {
-    return 1
+  fizzbuzz(num) {
+    return num
   }
 };
