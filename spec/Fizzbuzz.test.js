@@ -18,4 +18,7 @@ describe('#Fizzbuzz', () => {
   test("returns fizz when the number is a multiple of 3", () => {
     expect(myClass.fizzbuzz(6)).toBe("Fizz")
   })
+  test("returns buzz when the number is 5", () => {
+    expect(myClass.fizzbuzz(5)).toBe("Buzz")
+  })
 });
