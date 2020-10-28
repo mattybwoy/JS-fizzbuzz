@@ -8,4 +8,14 @@ export default class Fizzbuzz {
       return "Buzz"
     return num
   }
+
+
+  all() {
+    var ans = [];
+    for (let i = 1; i <= 100; i++) {
+      ans.push(this.fizzbuzz(i));
+    }
+    console.log(ans);
+    return ans
+  }
 };

@@ -27,4 +27,10 @@ describe('#Fizzbuzz', () => {
   test("returns fizzbuzz when given 15", () => {
     expect(myClass.fizzbuzz(15)).toBe("Fizzbuzz")
   })
+  test("returns fizzbuzz when given multiples of 15", () => {
+    expect(myClass.fizzbuzz(30)).toBe("Fizzbuzz")
+  })
+  test("returns the numbers 1-100", () => {
+    expect(myClass.all().length).toBe(100)
+  })
 });
